@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0769E4701E411878003C5435 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0769E46F1E411878003C5435 /* main.cpp */; };
+		0769E4781E411888003C5435 /* Bunny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0769E4761E411888003C5435 /* Bunny.cpp */; };
+		0769E47C1E511FF0003C5435 /* BunnyFarm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0769E47A1E511FF0003C5435 /* BunnyFarm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0769E46A1E411878003C5435 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0769E46C1E411878003C5435 /* Bunny Farm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bunny Farm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0769E46F1E411878003C5435 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0769E4761E411888003C5435 /* Bunny.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bunny.cpp; path = ../Bunny.cpp; sourceTree = "<group>"; };
+		0769E4771E411888003C5435 /* Bunny.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Bunny.hpp; path = ../Bunny.hpp; sourceTree = "<group>"; };
+		0769E4791E41195F003C5435 /* Names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Names.txt; sourceTree = "<group>"; };
+		0769E47A1E511FF0003C5435 /* BunnyFarm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BunnyFarm.cpp; sourceTree = "<group>"; };
+		0769E47B1E511FF0003C5435 /* BunnyFarm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BunnyFarm.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0769E4691E411878003C5435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0769E4631E411878003C5435 = {
+			isa = PBXGroup;
+			children = (
+				0769E46E1E411878003C5435 /* Bunny Farm */,
+				0769E46D1E411878003C5435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0769E46D1E411878003C5435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0769E46C1E411878003C5435 /* Bunny Farm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0769E46E1E411878003C5435 /* Bunny Farm */ = {
+			isa = PBXGroup;
+			children = (
+				0769E4761E411888003C5435 /* Bunny.cpp */,
+				0769E4771E411888003C5435 /* Bunny.hpp */,
+				0769E47A1E511FF0003C5435 /* BunnyFarm.cpp */,
+				0769E47B1E511FF0003C5435 /* BunnyFarm.hpp */,
+				0769E46F1E411878003C5435 /* main.cpp */,
+				0769E4791E41195F003C5435 /* Names.txt */,
+			);
+			path = "Bunny Farm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0769E46B1E411878003C5435 /* Bunny Farm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0769E4731E411878003C5435 /* Build configuration list for PBXNativeTarget "Bunny Farm" */;
+			buildPhases = (
+				0769E4681E411878003C5435 /* Sources */,
+				0769E4691E411878003C5435 /* Frameworks */,
+				0769E46A1E411878003C5435 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bunny Farm";
+			productName = "Bunny Farm";
+			productReference = 0769E46C1E411878003C5435 /* Bunny Farm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0769E4641E411878003C5435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LehmannGames;
+				TargetAttributes = {
+					0769E46B1E411878003C5435 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0769E4671E411878003C5435 /* Build configuration list for PBXProject "Bunny Farm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0769E4631E411878003C5435;
+			productRefGroup = 0769E46D1E411878003C5435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0769E46B1E411878003C5435 /* Bunny Farm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0769E4681E411878003C5435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0769E4781E411888003C5435 /* Bunny.cpp in Sources */,
+				0769E4701E411878003C5435 /* main.cpp in Sources */,
+				0769E47C1E511FF0003C5435 /* BunnyFarm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0769E4711E411878003C5435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0769E4721E411878003C5435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0769E4741E411878003C5435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0769E4751E411878003C5435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0769E4671E411878003C5435 /* Build configuration list for PBXProject "Bunny Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0769E4711E411878003C5435 /* Debug */,
+				0769E4721E411878003C5435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0769E4731E411878003C5435 /* Build configuration list for PBXNativeTarget "Bunny Farm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0769E4741E411878003C5435 /* Debug */,
+				0769E4751E411878003C5435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0769E4641E411878003C5435 /* Project object */;
+}
